@@ -195,7 +195,7 @@ namespace VideoMenuApp
             {
                 foreach (var video in videos)
                 {
-                    Console.WriteLine("Id: {0}, Name: {1}, Genre: {2}", video.Id, video.Name, video.Genre);
+                    Console.WriteLine("Id: {0} Name: {1} Genre: {2}", video.Id, video.Name, video.Genre);
                     Console.WriteLine("-----------------------------------------");
                 }
             }

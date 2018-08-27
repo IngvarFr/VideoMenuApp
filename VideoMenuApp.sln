@@ -3,7 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoMenuApp", "VideoMenuApp\VideoMenuApp.csproj", "{D0003592-7B56-4E5F-8B50-903F37AFFF07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VideoMenuApp", "VideoMenuApp\VideoMenuApp.csproj", "{D0003592-7B56-4E5F-8B50-903F37AFFF07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoMenuApp.UI", "VideoMenuApp.UI\VideoMenuApp.UI.csproj", "{87E71FD8-4E40-477B-8BAD-398135265997}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{D954C2AC-FAFA-4DA1-89DE-4947ADF04DC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{E96150FF-0FE0-46D1-A754-D4DC9DD91248}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{FE63CBCE-E81E-4023-906D-A43AD1676955}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoMenuApp.Core", "VideoMenuApp.Core\VideoMenuApp.Core.csproj", "{8CD93393-A0EE-46DB-8F53-5286881A3457}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoMenuApp.Core.Entity", "VideoMenuApp.Core.Entity\VideoMenuApp.Core.Entity.csproj", "{9831A53D-8E88-4261-AD37-347438A3497A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoMenuApp.Infrastructure.Data", "VideoMenuApp.Infrastructure.Data\VideoMenuApp.Infrastructure.Data.csproj", "{D74641A5-A389-4250-957B-E6DB7C5933A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +29,31 @@ Global
 		{D0003592-7B56-4E5F-8B50-903F37AFFF07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0003592-7B56-4E5F-8B50-903F37AFFF07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0003592-7B56-4E5F-8B50-903F37AFFF07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87E71FD8-4E40-477B-8BAD-398135265997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87E71FD8-4E40-477B-8BAD-398135265997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87E71FD8-4E40-477B-8BAD-398135265997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87E71FD8-4E40-477B-8BAD-398135265997}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CD93393-A0EE-46DB-8F53-5286881A3457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CD93393-A0EE-46DB-8F53-5286881A3457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CD93393-A0EE-46DB-8F53-5286881A3457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CD93393-A0EE-46DB-8F53-5286881A3457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9831A53D-8E88-4261-AD37-347438A3497A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9831A53D-8E88-4261-AD37-347438A3497A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9831A53D-8E88-4261-AD37-347438A3497A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9831A53D-8E88-4261-AD37-347438A3497A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D74641A5-A389-4250-957B-E6DB7C5933A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D74641A5-A389-4250-957B-E6DB7C5933A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D74641A5-A389-4250-957B-E6DB7C5933A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D74641A5-A389-4250-957B-E6DB7C5933A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{87E71FD8-4E40-477B-8BAD-398135265997} = {D954C2AC-FAFA-4DA1-89DE-4947ADF04DC6}
+		{8CD93393-A0EE-46DB-8F53-5286881A3457} = {FE63CBCE-E81E-4023-906D-A43AD1676955}
+		{9831A53D-8E88-4261-AD37-347438A3497A} = {FE63CBCE-E81E-4023-906D-A43AD1676955}
+		{D74641A5-A389-4250-957B-E6DB7C5933A2} = {E96150FF-0FE0-46D1-A754-D4DC9DD91248}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {254371CB-8F65-4D8B-9FCE-83B6CFECEFAE}
