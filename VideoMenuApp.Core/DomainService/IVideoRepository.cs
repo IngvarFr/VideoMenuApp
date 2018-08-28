@@ -7,7 +7,7 @@ namespace VideoMenuApp.Core.DomainService
     {
         Video Create(Video video);
         Video FindById(int id);
-        List<Video> GetAll();
+        IEnumerable<Video> GetAll();
         Video Update(Video video);
         Video Delete(int id);
     }

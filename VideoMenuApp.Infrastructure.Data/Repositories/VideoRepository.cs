@@ -28,7 +28,7 @@ namespace VideoMenuApp.Infrastructure.Data.Repositories
             return null;
         }
 
-        public List<Video> GetAll()
+        public IEnumerable<Video> GetAll()
         {
             return _videos;
         }
