@@ -6,10 +6,9 @@ namespace VideoMenuApp.UI
 {
     class Program
     {
-        static IVideoRepository videoRepository;
         static void Main(string[] args)
         {
-            videoRepository = new VideoRepository();
+            var printer = new Printer();
         }
     }
 }

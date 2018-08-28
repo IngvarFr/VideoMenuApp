@@ -8,8 +8,4 @@
     <ProjectReference Include="..\VideoMenuApp.Core.Entity\VideoMenuApp.Core.Entity.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="ApplicationService\" />
-  </ItemGroup>
-
 </Project>
